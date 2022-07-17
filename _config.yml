@@ -1,21 +1,19 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole site, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
+# 이 구성 파일은 전체 사이트에 영향을 미치는 설정, 즉 한 번 설정하고 
+# 그 후에는 거의 편집하지 않는 값을 위한 것입니다. 
+# 이 파일을 자주 편집하는 경우 자주 업데이트해야 하는 데이터에 대해 
+# Jekyll의 데이터 파일 기능을 사용하는 것이 좋습니다.
 #
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
+# 기술적인 이유로 이 파일은 'jekyll serve'를 사용할 때 자동으로 다시 로드되지 *않습니다*. 
+# 이 파일을 변경하는 경우 서버 프로세스를 다시 시작하십시오.
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Just the Docs
+# 이것은 귀하의 새 사이트를 개인화하는 데 사용됩니다. 
+# HTML 파일을 보면 {{ site.title }}, {{ site.github_repo }} 등을 통해 액세스한 것을 볼 수 있습니다. 
+# 원하는 맞춤 변수를 만들 수 있으며 {{ site.myvariable }}을(를) 통해 템플릿에서 액세스할 수 있습니다.
+title: 1996
 description: A Jekyll theme for documentation
-baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://just-the-docs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
@@ -24,16 +22,16 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 ]
 
 # Regression tests
-# By default, the pages in /docs/tests are excluded when the ste is built.
-# To include them, comment-out the relevant line above.
-# Uncommenting the following line doesn't work - see https://github.com/jekyll/jekyll/issues/4791
+# 기본적으로 /docs/tests의 페이지는 ste가 빌드될 때 제외됩니다. 
+# 그것들을 포함하려면 위의 관련 줄을 주석 처리하십시오.
+#  다음 줄의 주석 처리를 제거하면 작동하지 않습니다. https://github.com/jekyll/jekyll/issues/4791 참조
 # include: ["docs/tests/"]
 
-# Set a path/url to a logo that will be displayed instead of the title
+# 제목 대신 표시될 로고의 경로/URL 설정
 #logo: "/assets/images/just-the-docs.png"
 
-# Enable or disable the site search
-# Supports true (default) or false
+# 사이트 검색 활성화 또는 비활성화
+# true(기본값) 또는 false 지원
 search_enabled: true
 search:
   # Split pages into sections that can be searched individually
